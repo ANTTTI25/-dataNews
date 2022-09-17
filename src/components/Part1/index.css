@@ -1,0 +1,74 @@
+.part1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+  background: url('../../asserts/title-background.png');
+}
+
+.part1-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.round {
+  width: 28px;
+  height: 18px;
+  margin-left: 100px;
+}
+
+.part1-title {
+  width: 137px;
+  height: 36px;
+  /* margin-left: 10px; */
+
+  font-family: 'Yomogi';
+  font-style: normal;
+  font-weight: 440;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #802323;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.part1-content-container {
+  width: 50%;
+  margin-left: 400px;
+}
+
+.part1-content {
+  margin-top: 16px;
+  font-family: 'Microsoft YaHei UI';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* or 312% */
+
+  letter-spacing: 0.3em;
+
+  color: #000000;
+  z-index: 100;
+}
+
+.part1-special {
+  margin-top: 30px;
+}
+
+.part1-content-sp {
+  color: #802323;
+}
+
+.part1-content-bold {
+  font-weight: bold;
+}
+
+.bottom-extra {
+  height: 100px;
+  width: 100%;
+}

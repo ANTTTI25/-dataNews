@@ -1,0 +1,67 @@
+.part4-container {
+  margin-left: 320px;
+  margin-top: 200px;
+  width: 80%;
+}
+
+.part4-title {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.part4-round {
+  width: 31px;
+  height: 31px;
+}
+
+.part4-title-content {
+  width: 357px;
+  height: 42px;
+  margin-left: 18px;
+
+  font-family: 'Yuji Hentaigana Akari';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #802323;
+}
+
+.part4-content1-container {
+  margin-top: 30px;
+  width: 952px;
+  height: 300px;
+}
+
+.part4-content1 {
+  font-family: 'YouYuan';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  color: #000000;
+}
+
+.part4-content1-red {
+  color: #802323;
+}
+
+.part4-content2 {
+  margin-top: 30px;
+}
+
+.part4-maps {
+  height: 400px;
+}
+
+.part4-content2-container {
+  height: 800px;
+}

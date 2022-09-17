@@ -1,0 +1,209 @@
+.part5-container {
+  margin-left: 320px;
+  margin-top: 200px;
+  width: 80%;
+}
+
+.part5-title-container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.part5-round {
+  width: 31px;
+  height: 31px;
+}
+
+.part5-title-content {
+  width: 357px;
+  height: 42px;
+  margin-left: 18px;
+
+  font-family: 'Yuji Hentaigana Akari';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #802323;
+}
+
+.part5-subtitle1 {
+  border-top: 1px solid #432828;
+  border-bottom: 1px solid #432828;
+  width: 157px;
+  height: 30px;
+
+  font-family: 'Microsoft YaHei';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #802323;
+  margin-top: 30px;
+}
+
+.part5-content1-container {
+  margin-top: 10px;
+  width: 952px;
+  height: 300px;
+}
+
+.part5-content2-container {
+  margin-top: 10px;
+  width: 952px;
+  height: 180px;
+}
+
+.part5-content1 {
+  font-family: 'YouYuan';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 37px;
+  /* or 206% */
+
+  color: #000000;
+}
+
+.part5-content1-red {
+  color: #802323;
+}
+
+.part5-content1-bigred {
+  font-size: 22px;
+  color: #802323;
+}
+
+.part5-content1-bigboldred {
+  font-size: 22px;
+  color: #802323;
+  font-weight: bold;
+}
+
+
+.part5-subtitle2 {
+  border-top: 1px solid #432828;
+  border-bottom: 1px solid #432828;
+  width: 414px;
+  height: 30px;
+
+  font-family: 'Microsoft YaHei';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #802323;
+}
+
+.part5-map {
+  width: 1107px;
+  height: 767px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px 10px rgba(235, 214, 202, 0.2);
+  border-radius: 68px;
+  margin-left: -80px;
+}
+
+.part5-kelitu {
+  height: 700px;
+}
+
+.part5-content3-container {
+  margin-left: -320px;
+  margin-top: 20px;
+  width: 1518px;
+  height: 415px;
+
+  background: url('../../asserts/part5-content3-background.png');
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.part5-content3-left {
+  margin-left: 300px;
+  margin-top: 48px;
+  width: 360px;
+  height: 363px;
+
+  font-family: 'YouYuan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+
+  color: #000000;
+}
+
+.part5-content3-right {
+  margin-left: 200px;
+  margin-top: 48px;
+  width: 360px;
+  height: 363px;
+
+  font-family: 'YouYuan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+
+
+  color: #000000;
+}
+
+.part5-content3-borderline {
+  position: absolute;
+  top: 48px;
+  left: 727px;
+}
+
+.part5-content4-container {
+  margin-top: 20px;
+  width: 900px;
+  font-family: Microsoft YaHei;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.12em;
+  text-align: left;
+
+  font-family: Microsoft YaHei;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+
+.part5-timeline {
+  margin-top: 20px;
+  margin-left: -140px;
+  height: 623px;
+  width: 1203px;
+  left: 119px;
+  top: 2808px;
+  border-radius: 50px;
+  background: #d9d9d9;
+}

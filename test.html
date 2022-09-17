@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* .container {
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+      height: 100vh;
+    }
+    .left {
+      width: 300px;
+      background-color: black;
+    }
+    .main {
+      flex: 1;
+      background-color: red;
+    }
+    .right {
+      width: 300px;
+      background-color: aquamarine;
+    } */
+    .container {
+      width: 100vw;
+      height: 100vh;
+      padding: 0 200px;
+    }
+    .left {
+      /* position: absolute;
+      width: 20%;
+      height: 100%;
+      left: 0; */
+      /* float: left;
+      height: 100%; */
+      position: relative;
+      left: -200px;
+      margin-left: -100%;
+      background-color: black;
+    }
+    .main {
+      /* position: absolute;
+      width: 60%;
+      height: 100%;
+      left: 20%; */
+      /* overflow: hidden;
+      height: 100%;
+      width: 800px; */
+      float: left;
+      width: 100%;
+      background-color: red;
+    }
+    .right {
+      /* position: absolute;
+      width: 20%;
+      height: 100%;
+      right: 0; */
+      /* float: right;
+      height: 100%; */
+      position: relative;
+      right: -200px;
+      margin-left: -200px;
+      background-color: blue;
+    }
+    aside {
+      float: left;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left"></div>
+    <div class="main"></div>
+    <div class="right"></div>
+  </div>
+  <script>
+    
+  </script>
+</body>
+</html>

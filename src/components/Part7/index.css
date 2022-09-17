@@ -1,0 +1,129 @@
+.part7-container {
+  margin-left: 320px;
+  margin-top: 20px;
+}
+
+.part7-title-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;  
+}
+
+.part7-title-img {
+  width: 31px;
+  height: 31px;
+}
+
+.part7-title-content {
+  margin-left: 10px;
+  width: 357px;
+  height: 42px;
+
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #802323;
+}
+
+.part7-content1-container {
+  width: 822px;
+  height: 102px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.part7-content1 {
+  font-family: 'YouYuan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.part7-content2-container {
+  margin-top: 20px;
+  width: 800px;
+}
+
+.part7-content2 {
+  font-family: Microsoft YaHei;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.part7-content3-subtitle {
+  width: 180px;
+  margin-top: 30px;
+  border-top: #802323 1px solid;
+  border-bottom: #802323 1px solid;
+  font-family: Microsoft YaHei;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: left;
+
+  color: #802323;
+}
+
+.part7-content3-container {
+  margin-top: 30px;
+}
+
+.part7-content3 {
+  width: 791px;
+  height: 215px;
+
+  font-family: 'YouYuan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.part7-relitu {
+  width: 800px;
+  height: 600px;
+}
+
+.part7-content4-container {
+  margin-top: 30px;
+}
+
+.part7-content4 {
+  width: 811px;
+  height: 287px;
+
+  font-family: Microsoft YaHei;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.part7-hexiantu {
+  margin-top: 30px;
+}

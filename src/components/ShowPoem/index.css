@@ -1,0 +1,142 @@
+.showpoem-container {
+  position: relative;
+  margin-top: 20px;
+  width: 683px;
+  height: 77.62px;
+
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.186) 0%, rgba(255, 108, 1, 0.108) 100%);
+}
+
+.showpoem-container:hover {
+  cursor: pointer;
+}
+
+.showpoem-container-left {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.showpoem-border-left {
+  position: absolute;
+  left: 0;
+  width: 33.7px;
+  height: 77.62px;
+
+  background: #802323;
+  box-shadow: 7px 5px 15px rgba(156, 105, 29, 0.35);
+  border-radius: 13px;
+}
+
+.showpoem-border-right {
+  position: absolute;
+  left: 0;
+  width: 33.7px;
+  height: 77.62px;
+
+  background: #802323;
+  box-shadow: 7px 5px 15px rgba(156, 105, 29, 0.35);
+  border-radius: 13px;
+}
+
+.showpoem-content-left {
+  position: absolute;
+  width: 670.3px;
+  height: 82.95px;
+
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.showpoem-content-right {
+  position: absolute;
+  right: -220px;
+  width: 670.3px;
+  height: 82.95px;
+
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+@keyframes scale-up-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+.scale-up-hor-center {
+	animation: scale-up-hor-center 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.scale-down-hor-center {
+	-webkit-animation: scale-down-hor-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-down-hor-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-down-hor-center {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    -webkit-transform: scaleX(0.3);
+            transform: scaleX(0.3);
+  }
+}
+
+.showpoem-answer-container {
+  flex-direction: row;
+  margin-top: 20px;
+  width: 683px;
+  height: 77.62px;
+  display: none;
+}
+
+.showpoem-answer-border-left {
+  width: 33.7px;
+  height: 77.62px;
+
+  background: #802323;
+  box-shadow: 7px 5px 15px rgba(156, 105, 29, 0.35);
+  border-radius: 13px;
+}
+
+.showpoem-answer-content {
+  width: 613px;
+  height: 78px;
+
+  background: #FFFFFF;
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.none {
+  display: none;
+}

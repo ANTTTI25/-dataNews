@@ -1,0 +1,135 @@
+.part6-container {
+  margin-left: 320px;
+  margin-top: 200px;
+}
+
+.part6-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.part6-round {
+  width: 31px;
+  height: 31px;
+}
+
+.part6-title-content {
+  margin-left: 20px;
+  font-family: Yeseva One;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #802323;
+}
+
+.part6-subtitle1 {
+  width: 300px;
+  font-family: 'Microsoft YaHei';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #802323;
+  margin-top: 56px;
+  margin-left: 26px;
+  border-top: #802323 1px solid;
+  border-bottom: #802323 1px solid;
+}
+
+.part6-content1-container {
+  width: 903px;
+  height: 240px;
+  margin-top: 10px;
+}
+
+.part6-content1 {
+  font-family: 'KaiTi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.part6-content1-red {
+  color: #802323;
+}
+
+.part6-content1-img {
+  width: 967px;
+  height: 538px;
+  margin-top: 10px;
+}
+
+.part6-content2-container {
+  margin-top: 10px;
+  width: 900px;
+  height: 365px;
+}
+
+.part6-content2 {
+  font-family: 'KaiTi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  /* or 227% */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.part6-subtitle2 {
+  margin-top: 20px;
+  margin-left: 26px;
+  width: 108px;
+  height: 30px;
+
+  font-family: 'Microsoft YaHei';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #802323;
+  border-top: #802323 1px solid;
+  border-bottom: #802323 1px solid;
+}
+
+.part6-content3-container {
+  margin-top: 20px;
+  width: 836px;
+  height: 200px;
+}
+
+.part6-content3 {
+  font-family: 'Kameron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  /* or 227% */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
